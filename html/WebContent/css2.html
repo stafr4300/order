@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>폰트, 색상</title>
+		<!-- 외부경로 설정 -->
+		<link type="text/css" rel="stylesheet" href="css/mystyle.css"> 
+		
+		<!-- 위의 외부설정과, 아래의 내부설정중 우선순위는 내부설정이다 -->
+		<style> 
+			/* body{background-color:silver;} */ 
+			/* body{background-color:rgb(60%, 40%, 10%);} */ /* 갈 */
+/* 			body{background-color:rgb(153, 102, 25);} */ /* 갈 */
+			
+			/* body{background-color:rgb(255, 255, 255);} */ /* 흰 */
+			/* body{background-color:rgb(100%, 100%, 100%);} */ /* 흰 */
+			body{ /*background-color:#ffffff 최대치;흰 */
+				background-image: url("google.png");
+				background-repeat: no-repeat;
+				/*background-position: 100px 100px;*/
+				background-attachment: fixed;
+			}
+			/* body{background-color:rgb(0,0,0)} */ /* 검 */
+				
+			p{ background-color: yellow; 
+			   font-size: 100px; 
+			   /* font-family: sans-serif; */ /* 궁서-굴림 */
+			   font-family:;
+			   font-style: italic;
+			   text-align: center;
+			   text-transform: capitalize;
+			   text-shadow: 10px 10px 35px blue;
+			  
+			  
+			  /* 방법으로는 p157로도 할 수 있다 */ 
+			   /* 낱개로 지정 */
+			  /*  border-top:solid;
+			   border-bottom:dotted;
+			   border-left:dashed;
+			   border-right:outset; */
+			   
+			   /* 전체공통 지정 */
+			   border-style: solid;
+			   border-color:red;
+			   border-width: 3px;
+			   border-radius: 25px; /* 둥글게 */
+			   box-shadow: 10px 10px 5px black;
+			   padding: 10px 20px; /* 상하 좌우 */
+			   }
+			   div{
+			   width:100px;
+			   height:50px; /* 영역지정 */
+			   padding: 20px;
+			   	border:solid 3px green;
+			   	background-color: yellow; 
+			   	resize:both; /* 상하좌우 다 가능하다 */
+			   	overflow:auto; 
+			   }
+			   sapn{
+			   	border:solid 3px green;
+			   	background-color: yellow; 
+			   }
+			   a:link {color:red;}
+			   a:visited{color:green;}
+			   a:HOVER{cursor: e-resize; color:yellow;}
+		
+			 
+			
+			h1{color:white; font-family:맑은고딕;  font-size: 32px;  font-style:italic;  font-weight:bold; text-align:center; background-color:maroon;}  /* 많이 사용되는 CSS속성들의 예 */
+		</style> 
+	</head>
+	
+	<body>
+		<h1> h1 제목입니다</h1>
+		<p> p 본문입니다 this is body</p>
+		<h1><a href="css1.html">링크 이동</a></h1>
+		
+		<div>여기는 div내부입니다</div>
+		<div>여기는 div내부입니다2</div>
+		<span> 여기는 span내부입니다</span></br>
+		<span> 여기는 span내부입니다2</span>
+		
+		
+		
+	
+	
+	</body>
+</html>
